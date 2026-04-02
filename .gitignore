@@ -1,0 +1,49 @@
+# 1. Ignorar absolutamente tudo
+*
+
+# 2. Abrir exceções para pastas (precisamos permitir as pastas para o Git entrar nelas)
+!*/
+!**/
+
+# 3. Permitir arquivos de código-fonte (adicione as linguagens do grupo)
+!*.py
+!*.cpp
+!*.hpp
+!*.c
+!*.h
+!*.cs
+!*.java
+!*.ts
+!*.js
+!*.sql
+!*.go
+!*.rs
+
+# 4. Permitir arquivos de documentação e metadados do Git
+!.gitignore
+!.gitattributes
+!README.md
+!LICENSE
+!*.txt
+!*.md
+!*.tex
+!*.pdf
+
+# 5. Permitir arquivos de imagem
+!*.png
+!*.jpg
+!*.jpeg
+!*.bmp
+!*.svg
+!*.webp
+!*.tiff
+!*.gif
+
+# 6. Permitir arquivos de entrada de dados
+!*.csv
+!*.json
+!*.xml
+
+# 7. Permitir arquivos de configuração / automação
+!Makefile
+!CMakeLists.txt
