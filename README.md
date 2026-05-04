@@ -33,9 +33,9 @@ Para manter o repositório organizado e facilitar a busca por soluções especí
 ```text
 challenges/
 └── <nome-da-plataforma>/           # leetcode, beecrowd, neetcode, outros...
-    └── <id>: <nome-do-desafio>/    # Ex: "01: Two Sum" ou "1001: Extremamente Básico"
+    └── <id>: <nome-do-desafio>/    # Ex: "01_Two Sum" ou "1001_Extremamente Básico"
         └── <linguagem>/            # python, cpp, java, typescript, etc.
-            └── <numero-solucao>/   # 01, 02, 03... (para diferentes métodos/membros)
+            └── <numero-solucao>/   # _01, _02, _03... (para diferentes métodos/membros)
                 ├── solucao.ext     # Arquivo de código-fonte
                 ├── README.md       # Explicação da lógica (opcional)
                 └── assets/         # Imagens ou prints relacionados (opcional)
